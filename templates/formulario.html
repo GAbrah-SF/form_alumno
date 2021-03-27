@@ -1,0 +1,49 @@
+{% extends "index.html" %}
+{% block title %} {{ title }} {% endblock %}
+{% block content %}
+    <br>
+    <h1 class="title is-1 fw-bold has-text-black">{{ titulo1 }}</h1>
+    <br>
+    <form class="row g-3" action="/" id="formulario" method="POST" autocomplete="off">
+        <div class="col-md-4">
+            <label for="nombre" class="form-label">Nombre(s):</label>
+            <input type="text" class="campos form-control" name="nombre" id="nombre">
+        </div>
+        <div class="col-md-4">
+            <label for="apepat" class="form-label">Apellido Paterno:</label>
+            <input type="text" class="campos form-control" name="apepat" id="apepat">
+        </div>
+        <div class="col-md-4">
+            <label for="apemat" class="form-label">Apellido Materno:</label>
+            <input type="text" class="campos form-control" name="apemat" id="apemat">
+        </div>
+        <div class="col-md-4">
+            <label for="email" class="form-label">E-Mail:</label>
+            <input type="text" class="campos form-control" name="email" id="email">
+        </div>
+        <div class="col-md-2">
+            <label for="usuario" class="form-label">Usuario:</label>
+            <input type="text" class="campos form-control" name="usuario" id="usuario" readonly>
+        </div>
+        <div class="col-md-2">
+            <label for="pasword" class="form-label">Password:</label>
+            <input type="text" class="campos form-control" name="password" id="pasword" readonly>
+        </div>
+        <div class="col-md-2">
+            <label for="fecha" class="form-label">Fecha:</label>
+            <input type="text" class="form-control" name="fecha" id="fecha" value="{{ fecha }}" readonly>
+        </div>
+        <div class="col-md-2">
+            <label for="hora" class="form-label">Hora:</label>
+            <input type="text" class="form-control" name="hora" id="hora" readonly>
+        </div>
+        <br>
+        <div style="text-align: center">
+            <div class="btn-group">
+                <button class="btn btn-primary" type="button" id="generar">GENERAR USUARIO</button>
+                <button class="btn btn-secondary" type="button" id="limpiar">LIMPIAR CAMPOS</button>
+                <button class="btn btn-success" type="submit">REGISTRAR ALUMNO</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

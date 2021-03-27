@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.form-label{
+    color: black;
+}
+.form-control{
+    color: black;
+    text-align: center;
+}
+#limpiar{
+    margin: 0 10px;
+}
+
+#buscador{
+    text-transform: lowercase;
+}
+
+#crearBD{
+    cursor: pointer;
+}
+
+#nomBaseDatos{
+    text-align: center;
+}
