@@ -25,3 +25,5 @@
 9- Después de crearla, en el sub-menú **Mostrar Bases de Datos**. verifica que si se haya creado.
 
 10- Para crear las tablas, esas te las dejo de tarea (observa la imagen que esta en la ruta **static\img**).
+
+11- Para que funcione crea una tabla llamada **alumno** y con los campos que se muestran en la imágen **static\img**.
