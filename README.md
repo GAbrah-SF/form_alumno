@@ -6,7 +6,7 @@
 
 1- Clonar este repositorio en tu PC (Puede ser dentro de una carpeta en el escritorio).
 
-2- Débes tener instalado [Python 3](https://www.python.org/downloads/ "Python 3") y [MariaDB](https://downloads.mariadb.org/ "MariaDB") y si no es así observa este [VIDEO](https://www.youtube.com/watch?v=KLVjBxuvxOU&t=22s&ab_channel=Gabu%27sWebSite "VIDEO").
+2- Débes tener instalado [Python 3](https://www.python.org/downloads/ "Python 3") y [MariaDB](https://downloads.mariadb.org/ "MariaDB") y si no es así, observa este [VIDEO](https://www.youtube.com/watch?v=KLVjBxuvxOU&t=22s&ab_channel=Gabu%27sWebSite "VIDEO").
 
 3- Débes tener instalado el Framework de [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/#installation "Flask") en tu PC.
 
@@ -18,9 +18,9 @@
 6- En el archivo **conexion.py** agrega tus credenciales.
 
 7- Para visualizar esta App en tu navegador web, en la terminal del proyecto ejecuta:
-**python app.py** y después [Enter].
+**python app.py** y después presiona [Enter].
 
-8- Crea una Base de Datos en el menú: **NEW DATABASE** y en seguida **Crear Base de Datos**.
+8- Crea una Base de Datos en el menú: **NEW DATABASE** y en seguida en el sub-menú **Crear Base de Datos**.
 
 9- Después de crearla, en el sub-menú **Mostrar Bases de Datos**. verifica que si se haya creado.
 
