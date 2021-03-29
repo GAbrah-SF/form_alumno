@@ -1,6 +1,6 @@
 # Bienvenido al repositorio de form_alumno
 
-### Esta Web App funciona Flask y con una DataBAse en MariaDB
+### Esta Web App funciona con Flask y con una Base de Datos en MariaDB
 
 #### Instruciones de Uso:
 
@@ -26,4 +26,4 @@
 
 10- Para crear las tablas, esas te las dejo de tarea (observa la imagen que esta en la ruta **static\img**).
 
-11- Para que funcione crea una tabla llamada **alumno** y con las celdas que se muestran en la imágen **static\img**.
+11- Para que funcione crea una tabla llamada **alumno** y con las celdas que se muestran en la imágen **tablas_a_crear.png**.
