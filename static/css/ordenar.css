@@ -6,11 +6,11 @@ table tr th {
   user-select: none;
 }
 .sorting {
-  background-color: #D4D4D4;
+  background-color: #eab4b4;
 }
 .asc:after {
-  content: ' ↑';
+  content: '  ▲';
 }
 .desc:after {
-  content: " ↓";
+  content: "  ▼";
 }

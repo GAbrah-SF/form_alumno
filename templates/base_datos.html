@@ -15,7 +15,7 @@
             {% for database in filaDB %}
                 <tr>
                     <td class="fw-bold">{{ loop.index }}</td>
-                    <td class="fw-bold fs-5"><span class="DataBase">{{ database }}</span></td>
+                    <td class="fw-bold fs-5"><span class="DataBase">{{ database[0] }}</span></td>
                 </tr>
             {% endfor %}
         </tbody>

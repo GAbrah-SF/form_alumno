@@ -1,5 +1,4 @@
 from conexion import mariadb_conexion
-import mysql.connector as mariadb
 from flask import request
 from titulos import mensaje1, mensaje2
 
@@ -22,5 +21,5 @@ def guardar_alumno():
             mariadb_conexion.commit()
             return mensaje1
 
-        except mariadb.Error:
-            return mensaje2
+        except:
+            return mensaje2, 404

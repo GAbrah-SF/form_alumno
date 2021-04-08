@@ -1,3 +1,10 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("../img/fondo_sala.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
 h1{
     text-align: center;
 }

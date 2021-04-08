@@ -102,15 +102,16 @@ $(document).ready(function (){
                     url: "/guardar",
                     type: 'POST',
                     data: form_alumno.serialize(),
-                    success: function (respuesta) {
+                    success: function (success) {
                         swal.fire({
                             position: 'center',
                             icon: 'success',
                             background: "#000",
-                            title: (respuesta),
+                            title: (success),
                             showConfirmButton: false,
                             timer: 1500
                         })
+                        // console.log(success)
                     },
                     error: function (error) {
                         swal.fire({
@@ -121,6 +122,7 @@ $(document).ready(function (){
                             showConfirmButton: false,
                             timer: 1500
                         })
+                        // console.log(error)
                     }
                 });
                 form_alumno[0].reset()

@@ -1,0 +1,17 @@
+create table alumno
+(
+	usuario varchar(15) not null,
+	nombre text null,
+	apellidos text null,
+	email text null,
+	pass varchar(10) null,
+	fecha_registro text null,
+	hora text null
+);
+
+create unique index alumno_usuario_uindex
+	on alumno (usuario);
+
+alter table alumno
+	add constraint alumno_pk
+		primary key (usuario);

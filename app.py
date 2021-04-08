@@ -11,13 +11,19 @@ from fecha import fecha
 
 
 app = Flask(__name__)
+app.config.update(DEBUG=False, ENV="development")
 verdad = True
-puerto = 1717
+puerto = 7000
 
 
 @app.route('/')
 def home():
-    return render_template("formulario.html", title=title, titulo1=titulo1, fecha=fecha)
+    context = {
+        "title": title,
+        "titulo1": titulo1,
+        "fecha": fecha
+    }
+    return render_template("formulario.html", **context)
 
 
 @app.route('/alumnos_itsp')

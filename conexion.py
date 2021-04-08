@@ -3,7 +3,7 @@ import mysql.connector as mariadb
 try:
     # Agrega en seguida tus credenciales:
     credenciales = {
-        "port": 0000, # El Número de puerto va sin comillas y con 4 dígitos
+        "port": 0000, # El Número de puerto va sin comillas
         "host": "", # Por lo general es localhost
         "user": "", # Por lo general es root
         "password": "", # En caso de tener alguna Contraseña en su usuario
